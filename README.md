@@ -26,3 +26,16 @@ help desk and SOC roles.
 - User and group management
 - PowerShell automation for bulk user creation
 - Windows domain joining and troubleshooting
+
+
+Step1. Create the Virtual Machine for the Domain Controller with the hardware and storage requirements. Then provision the Network settings with two Adapaters.
+
+Adapter 1 - Attached to NAT
+Adapter 2 - Attached to Internal Network
+
+This networking design supports external network access through host-based NAT while enabling isolated communication between virtual machines on the internal network.
+
+![DC Adapter Settings1](https://github.com/user-attachments/assets/179948f7-543f-4186-a08e-7c9f143b574e)
+
+![DC Adapter Settings2](https://github.com/user-attachments/assets/cf5f04ec-dce9-4a2a-ac26-9540b3886824)
+
