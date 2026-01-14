@@ -30,3 +30,477 @@ Windows Server role installation
 Active Directory infrastructure setup
 
 Identity and Access Management (IAM) fundamentals
+
+2. Promoting the Server to a Domain Controller
+
+Screenshot:
+Promote Server to Domain Controller.JPG
+
+Description:
+This screenshot shows Server Manager after the AD DS role installation, displaying the post-deployment configuration warning prompting the administrator to promote the server to a domain controller.
+
+Key Actions Performed:
+
+Verified successful installation of AD DS role
+
+Initiated post-deployment configuration
+
+Selected the option to promote the server to a Domain Controller
+
+Why This Matters (Security Context):
+A server must be promoted to a domain controller to actively manage authentication requests, enforce security policies, and maintain directory services.
+
+Skills Demonstrated:
+
+Server Manager administration
+
+Active Directory deployment workflow
+
+Understanding of domain controller responsibilities
+
+3. Creating a New Forest and Domain
+
+Screenshot:
+Domain Controller - Add New Forrest.JPG
+
+Description:
+This screenshot shows the Active Directory Domain Services Configuration Wizard during deployment configuration, where a new forest is created with a custom root domain name.
+
+Key Actions Performed:
+
+Selected Add a new forest
+
+Defined the root domain name: DHLabs.com
+
+Prepared the environment for a new Active Directory domain structure
+
+Why This Matters (Security Context):
+Creating a new forest establishes a trust boundary and defines the highest-level security and administrative structure within Active Directory.
+
+Skills Demonstrated:
+
+Active Directory forest and domain design
+
+Enterprise identity architecture
+
+Secure directory service configuration
+
+4. Organizational Unit (OU) and User Creation
+
+Screenshot:
+OU and User Creation.jpeg
+
+Description:
+This screenshot shows the creation of Organizational Units (OUs) and user accounts within Active Directory Users and Computers (ADUC). OUs are used to logically organize directory objects and apply administrative control and security policies.
+
+Key Actions Performed:
+
+Created Organizational Units to separate users and resources
+
+Created standard domain user accounts
+
+Assigned users to appropriate OUs
+
+Followed naming conventions consistent with enterprise environments
+
+Why This Matters (Security Context):
+Organizational Units allow administrators to apply Group Policy, delegate administrative permissions, and enforce security controls in a structured and scalable manner.
+
+Skills Demonstrated:
+
+Active Directory object management
+
+Identity lifecycle management
+
+Role-based access control (RBAC) principles
+
+When you’re ready:
+
+Send the next screenshot name
+
+Or upload the next 3 images and I’ll document them just as cleanly
+
+You’re building a very interview-ready lab 👍
+
+Write descriptions in the same formats for jpegs 'ADMINS OU Creation', 'Admin Group Added To Admins OU', 'Delegate Admin Permissions to Company Admin Group', 'Remote Access Service and Network Address Translation Installation', 'Configure NAT For Internal Users', 'DHCP Server Installation', 'New DCHP Scope', 'Authorize DHCP Scope', 'New User Generation With Powershell Script', 'Add Client PC to Domain', 'Successfully Added Client to DHLabs Domain', 'DHCP Server Successfully Grants Lease To Client1 PC', 'Successful Login To Domain', 'Kobe Bryant Confirmed Member Of Domain'
+
+Excellent — this is a strong, complete lab. Below are clear, professional descriptions for each JPEG, written in the exact same format you’ve been using.
+You can paste these directly into documentation/README.md under your existing sections.
+
+5. ADMINS OU Creation
+
+Screenshot:
+ADMINS OU Creation.jpeg
+
+Description:
+This screenshot shows the creation of a dedicated Administrators Organizational Unit (OU) within Active Directory to separate privileged accounts from standard users.
+
+Key Actions Performed:
+
+Created a dedicated OU for administrative accounts
+
+Applied logical separation between standard and privileged users
+
+Followed least-privilege and tiered administration concepts
+
+Why This Matters (Security Context):
+Separating administrative accounts reduces attack surface and supports best practices for privilege management and incident containment.
+
+Skills Demonstrated:
+
+Active Directory OU design
+
+Privileged account management
+
+Enterprise security best practices
+
+6. Admin Group Added to Admins OU
+
+Screenshot:
+Admin Group Added To Admins OU.jpeg
+
+Description:
+This screenshot shows an administrative security group being created and placed inside the Admins OU for centralized privilege management.
+
+Key Actions Performed:
+
+Created an administrative security group
+
+Placed the group within the Admins OU
+
+Prepared group structure for delegated permissions
+
+Why This Matters (Security Context):
+Using groups instead of individual accounts for permissions supports scalable and auditable access control.
+
+Skills Demonstrated:
+
+Group-based access control
+
+Active Directory security groups
+
+IAM best practices
+
+7. Delegate Admin Permissions to Company Admin Group
+
+Screenshot:
+Delegate Admin Permissions to Company Admin Group.jpeg
+
+Description:
+This screenshot shows the delegation of administrative permissions to a designated Company Admin group using Active Directory delegation controls.
+
+Key Actions Performed:
+
+Delegated specific administrative rights to a security group
+
+Avoided assigning permissions directly to user accounts
+
+Applied principle of least privilege
+
+Why This Matters (Security Context):
+Delegation reduces risk by limiting elevated permissions while enabling operational efficiency.
+
+Skills Demonstrated:
+
+Delegation of control
+
+Least privilege implementation
+
+Active Directory administration
+
+8. Remote Access Service and Network Address Translation Installation
+
+Screenshot:
+Remote Access Service and Network Address Translation Installation.jpeg
+
+Description:
+This screenshot shows the installation of the Remote Access role, including Network Address Translation (NAT), to allow internal systems to access external networks.
+
+Key Actions Performed:
+
+Installed Remote Access role
+
+Enabled NAT functionality
+
+Prepared the environment for internal-to-external connectivity
+
+Why This Matters (Security Context):
+NAT protects internal systems by hiding private IP addresses while allowing controlled outbound communication.
+
+Skills Demonstrated:
+
+Network services configuration
+
+Secure network design
+
+Windows Server routing concepts
+
+9. Configure NAT for Internal Users
+
+Screenshot:
+Configure NAT For Internal Users.jpeg
+
+Description:
+This screenshot shows the configuration of NAT rules allowing internal domain systems to access external networks through the domain controller.
+
+Key Actions Performed:
+
+Configured NAT interfaces
+
+Defined internal and external network boundaries
+
+Enabled internet access for internal clients
+
+Why This Matters (Security Context):
+Proper NAT configuration supports secure network segmentation and controlled internet access.
+
+Skills Demonstrated:
+
+Network traffic routing
+
+NAT configuration
+
+Infrastructure security fundamentals
+
+10. DHCP Server Installation
+
+Screenshot:
+DHCP Server Installation.jpeg
+
+Description:
+This screenshot shows the installation of the Dynamic Host Configuration Protocol (DHCP) server role on Windows Server.
+
+Key Actions Performed:
+
+Installed DHCP Server role
+
+Added required DHCP management tools
+
+Prepared server for automated IP assignment
+
+Why This Matters (Security Context):
+Centralized IP management reduces misconfiguration and supports reliable network operations.
+
+Skills Demonstrated:
+
+DHCP server deployment
+
+Network services administration
+
+Windows Server management
+
+11. New DHCP Scope
+
+Screenshot:
+New DCHP Scope.jpeg
+
+Description:
+This screenshot shows the creation of a new DHCP scope, defining the IP address range available to client systems.
+
+Key Actions Performed:
+
+Created an IPv4 scope
+
+Defined IP range, subnet mask, and lease duration
+
+Configured scope options
+
+Why This Matters (Security Context):
+Proper scope configuration ensures reliable connectivity and prevents IP conflicts.
+
+Skills Demonstrated:
+
+DHCP scope design
+
+IP address management
+
+Network configuration
+
+12. Authorize DHCP Scope
+
+Screenshot:
+Authorize DHCP Scope.jpeg
+
+Description:
+This screenshot shows the DHCP server being authorized in Active Directory, allowing it to distribute IP addresses to domain clients.
+
+Key Actions Performed:
+
+Authorized DHCP server in AD
+
+Enabled the DHCP scope
+
+Verified service readiness
+
+Why This Matters (Security Context):
+Authorization prevents rogue DHCP servers from disrupting or compromising the network.
+
+Skills Demonstrated:
+
+Active Directory integration
+
+DHCP security controls
+
+Enterprise network governance
+
+13. New User Generation with PowerShell Script
+
+Screenshot:
+New User Generation With Powershell Script.jpeg
+
+Description:
+This screenshot shows the execution of a PowerShell script to automate the creation of multiple user accounts in Active Directory.
+
+Key Actions Performed:
+
+Used PowerShell to bulk-create users
+
+Applied consistent naming conventions
+
+Reduced manual administrative effort
+
+Why This Matters (Security Context):
+Automation improves consistency, reduces human error, and supports scalable identity management.
+
+Skills Demonstrated:
+
+PowerShell scripting
+
+Automation for IAM
+
+Administrative efficiency
+
+14. Add Client PC to Domain
+
+Screenshot:
+Add Client PC to Domain.jpeg
+
+Description:
+This screenshot shows a Windows client system being configured to join the Active Directory domain.
+
+Key Actions Performed:
+
+Configured DNS settings
+
+Joined client machine to the domain
+
+Used domain credentials for authentication
+
+Why This Matters (Security Context):
+Domain-joined systems can be centrally managed and secured using Group Policy.
+
+Skills Demonstrated:
+
+Domain integration
+
+Endpoint management
+
+Windows networking
+
+15. Successfully Added Client to DHLabs Domain
+
+Screenshot:
+Successfully Added Client to DHLabs Domain.jpeg
+
+Description:
+This screenshot confirms the successful addition of a client computer to the DHLabs.com domain.
+
+Key Actions Performed:
+
+Verified domain membership
+
+Confirmed successful authentication
+
+Completed domain join process
+
+Why This Matters (Security Context):
+Confirmation ensures the system is managed and protected under domain security controls.
+
+Skills Demonstrated:
+
+Domain validation
+
+Troubleshooting
+
+Enterprise endpoint onboarding
+
+16. DHCP Server Successfully Grants Lease to Client1 PC
+
+Screenshot:
+DHCP Server Successfully Grants Lease To Client1 PC.jpeg
+
+Description:
+This screenshot shows the DHCP server successfully issuing an IP address lease to a domain-joined client.
+
+Key Actions Performed:
+
+Verified active DHCP lease
+
+Confirmed correct IP assignment
+
+Ensured network connectivity
+
+Why This Matters (Security Context):
+Valid leases confirm proper network service operation and client trust.
+
+Skills Demonstrated:
+
+DHCP monitoring
+
+Network validation
+
+Infrastructure troubleshooting
+
+17. Successful Login to Domain
+
+Screenshot:
+Successful Login To Domain.jpeg
+
+Description:
+This screenshot shows a successful domain user login from a client machine using Active Directory credentials.
+
+Key Actions Performed:
+
+Logged in using domain account
+
+Authenticated against domain controller
+
+Confirmed access permissions
+
+Why This Matters (Security Context):
+Successful authentication validates directory services and identity workflows.
+
+Skills Demonstrated:
+
+Authentication validation
+
+Identity verification
+
+Access control testing
+
+18. Kobe Bryant Confirmed Member of Domain
+
+Screenshot:
+Kobe Bryant Confirmed Member Of Domain.jpeg
+
+Description:
+This screenshot confirms that the user account “Kobe Bryant” exists within Active Directory and is properly recognized as a domain user.
+
+Key Actions Performed:
+
+Verified user account presence in AD
+
+Confirmed correct OU placement
+
+Ensured domain membership
+
+Why This Matters (Security Context):
+Account verification ensures accurate identity records and supports auditing and compliance.
+
+Skills Demonstrated:
+
+User account verification
+
+Directory auditing
+
+Identity management validation
