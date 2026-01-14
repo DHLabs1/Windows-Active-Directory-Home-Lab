@@ -1,0 +1,18 @@
+## 1. Domain Controller Installation
+
+- dc-installed.png
+
+**Description:**
+This screenshot shows the successful installation of Windows Server 2025 and the promotion
+of the server to a Domain Controller.
+
+**Key Actions Performed:**
+- Installed Windows Server 2025
+- Added the Active Directory Domain Services (AD DS) role
+- Promoted the server to a Domain Controller
+- Created a new forest and domain
+
+**Skills Demonstrated:**
+- Windows Server administration
+- Active Directory fundamentals
+- Domain infrastructure setup
