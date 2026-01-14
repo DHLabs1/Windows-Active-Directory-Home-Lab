@@ -1,7 +1,7 @@
 1. Installing Active Directory Domain Services (AD DS)
 
 Screenshot:
-![AD Installation](../screenshots/Installing%20Active%20Directory%20Domain%20Services%20(AD%20DS).JPG)
+![AD Installation](../screenshots/Installing%20Active%20Directory%20Domain%20Services%20(AD%20DS).JPG) 
 
 Description:
 This screenshot shows the Add Roles and Features Wizard during the installation of the Active Directory Domain Services (AD DS) role on Windows Server. The system prompts to add required features needed to support Active Directory functionality.
@@ -56,6 +56,9 @@ Skills Demonstrated:
 
 Screenshot:
 OU and User Creation.jpeg
+
+<img src="../screenshots/ou-user-creation.jpeg" width="800">
+
 
 Description:
 This screenshot shows the creation of Organizational Units (OUs) and user accounts within Active Directory Users and Computers (ADUC). OUs are used to logically organize directory objects and apply administrative control and security policies.
