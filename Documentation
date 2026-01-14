@@ -1,6 +1,8 @@
 1. Installing Active Directory Domain Services (AD DS)
 
 ![AD DS Installation](../screenshots/Installing%20Active%20Directory%20Domain%20Services%20%28AD%20DS%29.JPG)
+![image alt](https://github.com/DHLabs1/Windows-Active-Directory-Home-Lab/blob/ea4eb02ef09b4a6882e8b3eab480d822a150a8c3/screenshots/Installing%20Active%20Directory%20Domain%20Services%20(AD%20DS).JPG)  
+
 
 **Description:**  
 This screenshot shows the Add Roles and Features Wizard during the installation of the Active Directory Domain Services (AD DS) role on Windows Server. The system prompts to add required features needed to support Active Directory functionality.
