@@ -1,18 +1,32 @@
-## 1. Domain Controller Installation
+1. Installing Active Directory Domain Services (AD DS)
 
-- dc-installed.png
+Screenshot:
+Installing Active Directory Domain Services (AD DS).JPG
 
-**Description:**
-This screenshot shows the successful installation of Windows Server 2025 and the promotion
-of the server to a Domain Controller.
+Description:
+This screenshot shows the Add Roles and Features Wizard during the installation of the Active Directory Domain Services (AD DS) role on Windows Server. The system prompts to add required features needed to support Active Directory functionality.
 
-**Key Actions Performed:**
-- Installed Windows Server 2025
-- Added the Active Directory Domain Services (AD DS) role
-- Promoted the server to a Domain Controller
-- Created a new forest and domain
+Key Actions Performed:
 
-**Skills Demonstrated:**
-- Windows Server administration
-- Active Directory fundamentals
-- Domain infrastructure setup
+Selected Active Directory Domain Services from Server Roles
+
+Installed required supporting features:
+
+Group Policy Management
+
+Remote Server Administration Tools (RSAT)
+
+AD DS administrative tools
+
+Confirmed inclusion of management tools
+
+Why This Matters (Security Context):
+Installing AD DS is the foundation of centralized authentication, authorization, and identity management in a Windows enterprise environment.
+
+Skills Demonstrated:
+
+Windows Server role installation
+
+Active Directory infrastructure setup
+
+Identity and Access Management (IAM) fundamentals
