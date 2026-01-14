@@ -1,7 +1,7 @@
 1. Installing Active Directory Domain Services (AD DS)
 
 Screenshot:
-![AD Installation](../screenshots/Installing Active Directory Domain Services (AD DS).JPG)
+![AD Installation](../screenshots/Installing%20Active%20Directory%20Domain%20Services%20(AD%20DS).JPG)
 
 Description:
 This screenshot shows the Add Roles and Features Wizard during the installation of the Active Directory Domain Services (AD DS) role on Windows Server. The system prompts to add required features needed to support Active Directory functionality.
