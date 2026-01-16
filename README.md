@@ -50,6 +50,7 @@ This screenshot shows the Add Roles and Features Wizard during the installation 
 
 Screenshot:
 Promote Server to Domain Controller.JPG
+![image alt](https://github.com/DHLabs1/Windows-Active-Directory-Home-Lab/blob/694ffdc944582f04fc95bae263683f416855711e/screenshots/Promote%20Server%20to%20Domain%20Controller.JPG)
 
 Description:
 This screenshot shows Server Manager after the AD DS role installation, displaying the post-deployment configuration warning prompting the administrator to promote the server to a domain controller.
@@ -69,6 +70,8 @@ Skills Demonstrated:
 Screenshot:
 Domain Controller - Add New Forrest.JPG
 
+![image alt]
+
 Description:
 This screenshot shows the Active Directory Domain Services Configuration Wizard during deployment configuration, where a new forest is created with a custom root domain name.
 
@@ -87,7 +90,7 @@ Skills Demonstrated:
 Screenshot:
 OU and User Creation.jpeg
 
-<img src="../screenshots/ou-user-creation.jpeg" width="800">
+![image alt]
 
 
 Description:
@@ -107,6 +110,8 @@ Skills Demonstrated:
 Screenshot:
 ADMINS OU Creation.jpeg
 
+![image alt]
+
 Description:
 This screenshot shows the creation of a dedicated Administrators Organizational Unit (OU) within Active Directory to separate privileged accounts from standard users.
 
@@ -120,10 +125,12 @@ Skills Demonstrated:
 - Privileged account management
 - Enterprise security best practices
 
-6. Admin Group Added to Admins OU
+**6. Admin Group Added to Admins OU**
 
 Screenshot:
 Admin Group Added To Admins OU.jpeg
+
+![image alt]
 
 Description:
 This screenshot shows an administrative security group being created and placed inside the Admins OU for centralized privilege management.
@@ -138,10 +145,12 @@ Skills Demonstrated:
 - Active Directory security groups
 - IAM best practices
 
-7. Delegate Admin Permissions to Company Admin Group
+**7. Delegate Admin Permissions to Company Admin Group**
 
 Screenshot:
 Delegate Admin Permissions to Company Admin Group.jpeg
+
+![image alt]
 
 Description:
 This screenshot shows the delegation of administrative permissions to a designated Company Admin group using Active Directory delegation controls.
@@ -156,10 +165,12 @@ Skills Demonstrated:
 - Least privilege implementation
 - Active Directory administration
 
-8. Remote Access Service and Network Address Translation Installation
+**8. Remote Access Service and Network Address Translation Installation**
 
 Screenshot:
 Remote Access Service and Network Address Translation Installation.jpeg
+
+![image alt]
 
 Description:
 This screenshot shows the installation of the Remote Access role, including Network Address Translation (NAT), to allow internal systems to access external networks.
@@ -174,10 +185,12 @@ Skills Demonstrated:
 - Secure network design
 - Windows Server routing concepts
 
-9. Configure NAT for Internal Users
+**9. Configure NAT for Internal Users**
 
 Screenshot:
 Configure NAT For Internal Users.jpeg
+
+![image alt]
 
 Description:
 This screenshot shows the configuration of NAT rules allowing internal domain systems to access external networks through the domain controller.
@@ -192,10 +205,12 @@ Skills Demonstrated:
 - NAT configuration
 - Infrastructure security fundamentals
 
-10. DHCP Server Installation
+**10. DHCP Server Installation**
 
 Screenshot:
 DHCP Server Installation.jpeg
+
+![image alt]
 
 Description:
 This screenshot shows the installation of the Dynamic Host Configuration Protocol (DHCP) server role on Windows Server.
@@ -210,10 +225,12 @@ Skills Demonstrated:
 - Network services administration
 - Windows Server management
 
-11. New DHCP Scope
+**11. New DHCP Scope**
 
 Screenshot:
 New DCHP Scope.jpeg
+
+![image alt]
 
 Description:
 This screenshot shows the creation of a new DHCP scope, defining the IP address range available to client systems.
@@ -228,10 +245,12 @@ Skills Demonstrated:
 - IP address management
 - Network configuration
 
-12. Authorize DHCP Scope
+**12. Authorize DHCP Scope**
 
 Screenshot:
 Authorize DHCP Scope.jpeg
+
+![image alt]
 
 Description:
 This screenshot shows the DHCP server being authorized in Active Directory, allowing it to distribute IP addresses to domain clients.
@@ -246,10 +265,12 @@ Skills Demonstrated:
 - DHCP security controls
 - Enterprise network governance
 
-13. New User Generation with PowerShell Script
+**13. New User Generation with PowerShell Script**
 
 Screenshot:
 New User Generation With Powershell Script.jpeg
+
+![image alt]
 
 Description:
 This screenshot shows the execution of a PowerShell script to automate the creation of multiple user accounts in Active Directory.
@@ -264,10 +285,12 @@ Skills Demonstrated:
 - Automation for IAM
 - Administrative efficiency
 
-14. Add Client PC to Domain
+**14. Add Client PC to Domain**
 
 Screenshot:
 Add Client PC to Domain.jpeg
+
+![image alt]
 
 Description:
 This screenshot shows a Windows client system being configured to join the Active Directory domain.
@@ -282,10 +305,12 @@ Skills Demonstrated:
 - Endpoint management
 - Windows networking
 
-15. Successfully Added Client to DHLabs Domain
+**15. Successfully Added Client to DHLabs Domain**
 
 Screenshot:
 Successfully Added Client to DHLabs Domain.jpeg
+
+![image alt]
 
 Description:
 This screenshot confirms the successful addition of a client computer to the DHLabs.com domain.
@@ -300,10 +325,12 @@ Skills Demonstrated:
 - Troubleshooting
 - Enterprise endpoint onboarding
 
-16. DHCP Server Successfully Grants Lease to Client1 PC
+**16. DHCP Server Successfully Grants Lease to Client1 PC**
 
 Screenshot:
 DHCP Server Successfully Grants Lease To Client1 PC.jpeg
+
+![image alt]
 
 Description:
 This screenshot shows the DHCP server successfully issuing an IP address lease to a domain-joined client.
@@ -318,10 +345,12 @@ Skills Demonstrated:
 - Network validation
 - Infrastructure troubleshooting
 
-17. Successful Login to Domain
+**17. Successful Login to Domain**
 
 Screenshot:
 Successful Login To Domain.jpeg
+
+![image alt]
 
 Description:
 This screenshot shows a successful domain user login from a client machine using Active Directory credentials.
@@ -336,10 +365,12 @@ Skills Demonstrated:
 - Identity verification
 - Access control testing
 
-18. Kobe Bryant Confirmed Member of Domain
+**18. Created User Confirmed Member Of Domain**
 
 Screenshot:
 Kobe Bryant Confirmed Member Of Domain.jpeg
+
+![image alt]
 
 Description:
 This screenshot confirms that the user account “Kobe Bryant” exists within Active Directory and is properly recognized as a domain user.
