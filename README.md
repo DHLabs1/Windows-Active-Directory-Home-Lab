@@ -29,6 +29,7 @@ help desk and SOC roles.
 
 **1. Installing Active Directory Domain Services (AD DS)**
 
+
 ![image alt](https://github.com/DHLabs1/Windows-Active-Directory-Home-Lab/blob/ea4eb02ef09b4a6882e8b3eab480d822a150a8c3/screenshots/Installing%20Active%20Directory%20Domain%20Services%20(AD%20DS).JPG)  
 
 
@@ -48,8 +49,7 @@ This screenshot shows the Add Roles and Features Wizard during the installation 
 
 **2. Promoting the Server to a Domain Controller**
 
-Screenshot:
-Promote Server to Domain Controller.JPG
+
 ![image alt](https://github.com/DHLabs1/Windows-Active-Directory-Home-Lab/blob/694ffdc944582f04fc95bae263683f416855711e/screenshots/Promote%20Server%20to%20Domain%20Controller.JPG)
 
 Description:
@@ -70,7 +70,7 @@ Skills Demonstrated:
 Screenshot:
 Domain Controller - Add New Forrest.JPG
 
-![image alt]
+![image alt](https://github.com/DHLabs1/Windows-Active-Directory-Home-Lab/blob/0e341087142be70fa4350cbe9bc8a42c1a3cb235/screenshots/Domain%20Controller%20-%20New%20Forrest%20Creation.JPG)
 
 Description:
 This screenshot shows the Active Directory Domain Services Configuration Wizard during deployment configuration, where a new forest is created with a custom root domain name.
@@ -90,7 +90,7 @@ Skills Demonstrated:
 Screenshot:
 OU and User Creation.jpeg
 
-![image alt]
+![image alt](https://github.com/DHLabs1/Windows-Active-Directory-Home-Lab/blob/0e341087142be70fa4350cbe9bc8a42c1a3cb235/screenshots/OU%20and%20User%20Creation.JPG)
 
 
 Description:
@@ -110,7 +110,7 @@ Skills Demonstrated:
 Screenshot:
 ADMINS OU Creation.jpeg
 
-![image alt]
+![image alt](https://github.com/DHLabs1/Windows-Active-Directory-Home-Lab/blob/0e341087142be70fa4350cbe9bc8a42c1a3cb235/screenshots/ADMINS%20OU%20Creation.JPG)
 
 Description:
 This screenshot shows the creation of a dedicated Administrators Organizational Unit (OU) within Active Directory to separate privileged accounts from standard users.
@@ -130,7 +130,7 @@ Skills Demonstrated:
 Screenshot:
 Admin Group Added To Admins OU.jpeg
 
-![image alt]
+![image alt](https://github.com/DHLabs1/Windows-Active-Directory-Home-Lab/blob/0e341087142be70fa4350cbe9bc8a42c1a3cb235/screenshots/Admin%20Group%20Added%20To%20Admins%20OU.JPG)
 
 Description:
 This screenshot shows an administrative security group being created and placed inside the Admins OU for centralized privilege management.
@@ -150,7 +150,7 @@ Skills Demonstrated:
 Screenshot:
 Delegate Admin Permissions to Company Admin Group.jpeg
 
-![image alt]
+![image alt](https://github.com/DHLabs1/Windows-Active-Directory-Home-Lab/blob/0e341087142be70fa4350cbe9bc8a42c1a3cb235/screenshots/Delegate%20Admin%20Permissions%20to%20Company%20Admin%20Group.JPG)
 
 Description:
 This screenshot shows the delegation of administrative permissions to a designated Company Admin group using Active Directory delegation controls.
@@ -170,7 +170,10 @@ Skills Demonstrated:
 Screenshot:
 Remote Access Service and Network Address Translation Installation.jpeg
 
-![image alt]
+![image alt](https://github.com/DHLabs1/Windows-Active-Directory-Home-Lab/blob/0e341087142be70fa4350cbe9bc8a42c1a3cb235/screenshots/Remote%20Access%20Service%20and%20Network%20Address%20Translation%20Installation%20Part%201.JPG)
+
+
+![image alt](https://github.com/DHLabs1/Windows-Active-Directory-Home-Lab/blob/0e341087142be70fa4350cbe9bc8a42c1a3cb235/screenshots/Remote%20Access%20Service%20and%20Network%20Address%20Translation%20Installation%20Part2.JPG)
 
 Description:
 This screenshot shows the installation of the Remote Access role, including Network Address Translation (NAT), to allow internal systems to access external networks.
@@ -190,7 +193,7 @@ Skills Demonstrated:
 Screenshot:
 Configure NAT For Internal Users.jpeg
 
-![image alt]
+![image alt](https://github.com/DHLabs1/Windows-Active-Directory-Home-Lab/blob/0e341087142be70fa4350cbe9bc8a42c1a3cb235/screenshots/Configure%20NAT%20For%20Internal%20Users.JPG)
 
 Description:
 This screenshot shows the configuration of NAT rules allowing internal domain systems to access external networks through the domain controller.
@@ -210,7 +213,7 @@ Skills Demonstrated:
 Screenshot:
 DHCP Server Installation.jpeg
 
-![image alt]
+![image alt](https://github.com/DHLabs1/Windows-Active-Directory-Home-Lab/blob/0e341087142be70fa4350cbe9bc8a42c1a3cb235/screenshots/DHCP%20Server%20Installation.JPG)
 
 Description:
 This screenshot shows the installation of the Dynamic Host Configuration Protocol (DHCP) server role on Windows Server.
@@ -230,7 +233,7 @@ Skills Demonstrated:
 Screenshot:
 New DCHP Scope.jpeg
 
-![image alt]
+![image alt](https://github.com/DHLabs1/Windows-Active-Directory-Home-Lab/blob/0e341087142be70fa4350cbe9bc8a42c1a3cb235/screenshots/New%20DCHP%20Scope.JPG)
 
 Description:
 This screenshot shows the creation of a new DHCP scope, defining the IP address range available to client systems.
@@ -250,7 +253,7 @@ Skills Demonstrated:
 Screenshot:
 Authorize DHCP Scope.jpeg
 
-![image alt]
+![image alt](https://github.com/DHLabs1/Windows-Active-Directory-Home-Lab/blob/0e341087142be70fa4350cbe9bc8a42c1a3cb235/screenshots/Authorize%20DHCP%20Scope.JPG)
 
 Description:
 This screenshot shows the DHCP server being authorized in Active Directory, allowing it to distribute IP addresses to domain clients.
@@ -270,7 +273,7 @@ Skills Demonstrated:
 Screenshot:
 New User Generation With Powershell Script.jpeg
 
-![image alt]
+![image alt](https://github.com/DHLabs1/Windows-Active-Directory-Home-Lab/blob/0e341087142be70fa4350cbe9bc8a42c1a3cb235/screenshots/New%20User%20Generation%20With%20Powershell%20Script.JPG)
 
 Description:
 This screenshot shows the execution of a PowerShell script to automate the creation of multiple user accounts in Active Directory.
@@ -290,7 +293,7 @@ Skills Demonstrated:
 Screenshot:
 Add Client PC to Domain.jpeg
 
-![image alt]
+![image alt](https://github.com/DHLabs1/Windows-Active-Directory-Home-Lab/blob/0e341087142be70fa4350cbe9bc8a42c1a3cb235/screenshots/Add%20Client%20PC%20to%20Domain.JPG)
 
 Description:
 This screenshot shows a Windows client system being configured to join the Active Directory domain.
@@ -310,7 +313,7 @@ Skills Demonstrated:
 Screenshot:
 Successfully Added Client to DHLabs Domain.jpeg
 
-![image alt]
+![image alt](https://github.com/DHLabs1/Windows-Active-Directory-Home-Lab/blob/0e341087142be70fa4350cbe9bc8a42c1a3cb235/screenshots/Successfully%20Added%20Client%20to%20DHLabs%20Domain.JPG)
 
 Description:
 This screenshot confirms the successful addition of a client computer to the DHLabs.com domain.
@@ -330,7 +333,7 @@ Skills Demonstrated:
 Screenshot:
 DHCP Server Successfully Grants Lease To Client1 PC.jpeg
 
-![image alt]
+![image alt](https://github.com/DHLabs1/Windows-Active-Directory-Home-Lab/blob/0e341087142be70fa4350cbe9bc8a42c1a3cb235/screenshots/DHCP%20Server%20Successfully%20Grants%20Lease%20To%20Client1%20PC.JPG)
 
 Description:
 This screenshot shows the DHCP server successfully issuing an IP address lease to a domain-joined client.
@@ -350,7 +353,7 @@ Skills Demonstrated:
 Screenshot:
 Successful Login To Domain.jpeg
 
-![image alt]
+![image alt](https://github.com/DHLabs1/Windows-Active-Directory-Home-Lab/blob/0e341087142be70fa4350cbe9bc8a42c1a3cb235/screenshots/Successful%20Login%20To%20Domain.JPG)
 
 Description:
 This screenshot shows a successful domain user login from a client machine using Active Directory credentials.
@@ -370,7 +373,7 @@ Skills Demonstrated:
 Screenshot:
 Kobe Bryant Confirmed Member Of Domain.jpeg
 
-![image alt]
+![image alt](https://github.com/DHLabs1/Windows-Active-Directory-Home-Lab/blob/0e341087142be70fa4350cbe9bc8a42c1a3cb235/screenshots/Kobe%20Bryant%20Confirmed%20Member%20Of%20Domain.JPG)
 
 Description:
 This screenshot confirms that the user account “Kobe Bryant” exists within Active Directory and is properly recognized as a domain user.
