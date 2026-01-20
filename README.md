@@ -272,7 +272,6 @@ This screenshot shows the DHCP server being authorized in Active Directory, allo
 **13. New User Generation With PowerShell Script**
 
 
-![image alt](https://github.com/DHLabs1/Windows-Active-Directory-Home-Lab/blob/0e341087142be70fa4350cbe9bc8a42c1a3cb235/screenshots/New%20User%20Generation%20With%20Powershell%20Script.JPG)
 
 
 **Description:**
